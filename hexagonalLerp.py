@@ -67,7 +67,6 @@ def cubeLineDraw(a, b):
     results = []
     
     for i in range(n + 1):
-        print("lerping" + str(i))
         results.append(cubeRound(cubeLerp(a, b, 1.0 / n * i)))
     
     return results
