@@ -76,7 +76,7 @@ def main():
     # initialize the pygame module
     pygame.init()
     
-    #create a surface on screen that has the size of 1920 x 1080
+    #create a surface on screen that has the size of 1280 x 720
     screen = pygame.display.set_mode((1280, 720))
     
     #define a variable to control the main loop
